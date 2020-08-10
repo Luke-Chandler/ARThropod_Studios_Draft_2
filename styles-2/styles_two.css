@@ -70,6 +70,49 @@ nav{
     background-color: #DAC791; 
     color: white;
 }
+.navBar a.News{
+    background-color: #41AFDC;
+    color: white;  
+}
+
+.navBar a:hover:not(.News){
+    background-color: #DAC791; 
+    color: white;
+}
+
+.navBar a.TwoD{
+    background-color: #41AFDC;
+    color: white; 
+}
+
+.navBar a:hover:not(.TwoD){
+    background-color: #DAC791; 
+    color: white;
+}
+.navBar a.ThreeD{
+    background-color: #41AFDC;
+    color: white;  
+}
+.navBar a:hover:not(.ThreeD){
+    background-color: #DAC791; 
+    color: white; 
+}
+.navBar a.Contact{
+    background-color: #41AFDC;
+    color: white; 
+}
+.navBar a:hover:not(.Contact){
+    background-color: #DAC791; 
+    color: white; 
+}
+.navBar a.WIP{
+    background-color: #41AFDC;
+    color: white; 
+}
+.navBar a:hover:not(.WIP){
+    background-color: #DAC791; 
+    color: white;   
+}
 main{
 margin: 170px 9px 0 210px;
 }
