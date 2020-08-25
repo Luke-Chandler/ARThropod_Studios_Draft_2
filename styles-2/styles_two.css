@@ -54,21 +54,29 @@ nav{
     
 }
 .navBar a {
+    height: 20px;
+    width: 168px;
     display: block; 
     color: #4C4C4C;
     padding: 8px 16px;
     text-decoration: none;
     font-size: 18px;
+    transition-property: width, height;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
 }
 
 .navBar a.home{
     background-color: #41AFDC;
-    color: white; 
+    color: white;
+    
 }
 
 .navBar a:hover:not(.home){
     background-color: #DAC791; 
     color: white;
+    width: 178px;
+    height: 30px;
 }
 main{
     margin: 170px 9px 9px 210px;
